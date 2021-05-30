@@ -15,11 +15,11 @@
 * GET /api/patient/:id
   This route should return a single patient object. The patient returned should have an ID that matches the one specified in the request.
 
-POST /api/patent
-This route should handle the creation of a new patient object. The parameters of this object should be taken from the JSON body of the incoming request.
+* POST /api/patent
+  This route should handle the creation of a new patient object. The parameters of this object should be taken from the JSON body of the incoming request.
 
-PATCH /api/patent/:id
-This route should allow a user to edit any of the details of a specified patient object identified by their ID. The route should respond with the newly edited patient object.
+* PATCH /api/patent/:id
+  This route should allow a user to edit any of the details of a specified patient object identified by their ID. The route should respond with the newly edited patient object.
 
-DELETE /api/patient/:id
-This route should allow a user to delete a specified patient object identified by their ID. The route should respond with a message that indicates weather the operation was successful.
+* DELETE /api/patient/:id
+  This route should allow a user to delete a specified patient object identified by their ID. The route should respond with a message that indicates weather the operation was     successful.
