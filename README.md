@@ -6,8 +6,8 @@
   Patients using the system should be outfitted with a module that should be designed to monitor and report on at least two parameters of the patient. Those two parameters are     body temperature and positional orientation.
   An atmel based embedded device should be developed containing a gyroscope/accelerometer, a temperature sensor and an ESP WiFi module. This device should read the value from     these sensors and make a POST request to a server.
 
-Backend Software
-The server should handle POST requests from the embedded circuit and the input JSON body should be saved to the database appropriately. Your backend application should also be able to handle any errors that may occur. If the incoming data is misshapen or if there is an issue saving the data to the database, the route should return an appropriate status code to the client and a suitable error message. Your backend application should also support incoming requests that come in from the user frontend application. The routes should be able handle the following request from the frontend:
+# Backend Software
+  The server should handle POST requests from the embedded circuit and the input JSON body should be saved to the database appropriately. Your backend application should also be   able to handle any errors that may occur. If the incoming data is misshapen or if there is an issue saving the data to the database, the route should return an appropriate       status code to the client and a suitable error message. Your backend application should also support incoming requests that come in from the user frontend application. The       routes should be able handle the following request from the frontend:
 
 GET /api/patient
 This route should return an array of all patient objects stored in the database.
