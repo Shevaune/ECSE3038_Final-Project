@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link rel="stylesheet" href="designs/style.css">
+   
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+    </label>
+       <header>
+        <div class="left_area">
+            <h3>Patient<span> Dashboard</span></h3>
+        </div>
+        <div class="right_area">
+            <a href="#" class="logout_btn">Logout</a>
+        </div>
+    </header>
+    
+    <div class="sidebar">
+        <center>
+            <h4>Menu</h4>
+        </center>
+        <a href="index.html"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="information.html"><i class="fas fa-info"></i><span>Patient Information</span></a>
+        <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+    </div>
+   
+    <div class="content">
+        <div class="patient_data">
+            <div class="patient_img">
+                <img class="img" id="C0:33:FF:A1" src="images/user.png" alt="">
+                <div class="buttons">
+                    <div class="edit" id="C0:33:FF:A1">Edit</div>
+                    <div class="delete" id="C0:33:FF:A1">Delete</div>
+                </div>
+            </div>
+            <div class="display">
+                <div class="first_name"><span>First Name</span><span>Shevaune</span></div>
+                <div class="last_name"><span>Last Name</span><span>Brown</span></div>
+                <div class="position"><span>Position</span><span id="C0:33:FF:A1:">777</span></div>
+                <div class="patient_id"><span>Patient ID</span><span>C0:33:FF:A1</span></div>
+            </div>
+        </div>
+    </div>        
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
